@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : Clase.c
+ Author      : agn
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int getInt(int numA, int *backValue);
+
+int main(void)
+{
+	int alumno=0;
+	return 0;
+}
+
+int getInt(int numA, int *backValue)
+{
+
+	return 0;
+}

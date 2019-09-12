@@ -10,8 +10,63 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdio_ext.h>
+#include <UTN_Array.h>
+#include <UTN_Inputs.h>
+#define CANT_ELEMENTS 3
+int getInt(int numA, int *backValue);
 
-int main(void) {
+int main(void)
+{
+	/*int legajo[CANT_ELEMENTS];
+	int edad[CANT_ELEMENTS];
+	int nota1[CANT_ELEMENTS];
+	int nota2[CANT_ELEMENTS];
+	int promedio[CANT_ELEMENTS];
+	char sexo[CANT_ELEMENTS];*/
 
-	return EXIT_SUCCESS;
+	return 0;
 }
+
+int getInt(int numA, int *backValue)
+{
+
+	return 0;
+}
+
+int getChar(char valor, char *backValue)
+{
+
+	return 0;
+}
+
+int cargarDatos(int *aLegajo, char *aSexo, int *aEdad, int *aNota1,
+				int *aNota2, int *aProm, int limite)
+{
+	int i;
+
+	for (i=0; i<limite; i++)
+	{
+		aLegajo[i] = getInt(int numA, int *backValue);
+	}
+	return 0;
+}
+
+int mostrarDatos(int aLegajo, char aSexo, int aEdad, int aNota1,
+				 int aNota2, int aProm, int limite)
+{
+
+	return 0;
+}
+
+int ordenarDatos(int aLegajo, char aSexo, int aEdad, int aNota1,
+		 	 	 int aNota2, int aProm, int limite)
+{
+
+	return 0;
+}
+
+
+
+
+
